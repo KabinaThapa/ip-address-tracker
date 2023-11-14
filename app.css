@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color:red;
+}
+#map{
+    height:180px;
+    width:20rem;
+}
+.container{
+    display:grid;
+    grid-template-columns:8rem 8rem 8rem 8rem;
+}
+#ip-container{
+    
+}
