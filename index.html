@@ -11,23 +11,24 @@
 </head>
 <body>
     <h1>IP Address Tracker</h1>
-   
+   <div class="searchdiv">
     <form class="searchbar">
-        <input id="input" class="input-field" type="text" placeholder="enter ip address"/>
-        <button type="submit">Search</button>
+        <input id="input" class="input-field" type="text" placeholder="Enter IP Address...."/>
+        <button class= 'button' type="submit">Search</button>
     </form>
+</div>
     <div class="container">
-        <div class="ip-container">IP Address
-        <div id="ip"></div>
+        <div class="ip-container"><h4>IP Address</h4>
+         <p id="ip"></p>
         </div>
-        <div class="location-container">Location
-            <div id="location"></div>
+        <div class="location-container"> <h4>Location</h4>
+            <p id="location"></p>
         </div>
-        <div class="timezone-container">TimeZone
-            <div id="timezone"></div>
+        <div class="timezone-container"> <h4>TimeZone</h4>
+            <p id="timezone"></p>
         </div>
-       <div class="isp-container">ISP
-        <div id="isp"></div>
+       <div class="isp-container"><h4>ISP</h4>
+        <p id="isp"></p>
        </div>
     </div>
     <div id="map"></div>
