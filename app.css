@@ -7,8 +7,8 @@ h1{
     color:red;
 }
 #map{
-    height:180px;
-    width:20rem;
+    height:60vh;
+    width:100%;
 }
 .container{
     display:grid;
